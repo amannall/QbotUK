@@ -2,13 +2,13 @@
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
   "manifestVersion": "1.5",
   "version": "1.0.0",
-  "id": "bdd735c4-91e4-400c-a5ef-651ee712bdea",
+  "id": "9733e2bd-7330-482e-af91-cf6da1b17595",
   "packageName": "qbot",
   "developer": {
-    "name": "University of Contoso",
-    "websiteUrl": "https://www.unsw.edu.au/QBot",
-    "privacyUrl": "https://www.unsw.edu.au/QBot/privacy",
-    "termsOfUseUrl": "https://www.unsw.edu.au/QBot/tou"
+    "name": "Imperial College London",
+    "websiteUrl": "https://www.imperial.ac.uk.",
+    "privacyUrl": "https://www.imperial.ac.uk/admin-services/secretariat/information-governance/data-protection/processing-personal-data/privacy-notices/",
+    "termsOfUseUrl": "https://www.imperial.ac.uk/admin-services/ict/self-service/computers-printing/campus-computers/conditions-of-use-for-it-facilities/"
   },
   "icons": {
     "outline": "Outline.png",
@@ -25,7 +25,7 @@
   "accentColor": "#6264A7",
   "bots": [
     {
-      "botId": "bdd735c4-91e4-400c-a5ef-651ee712bdea",
+      "botId": "9733e2bd-7330-482e-af91-cf6da1b17595",
       "scopes": [
         "team"
       ]
@@ -35,7 +35,7 @@
     {
       "entityId": "DashboardTab",
       "name": "Dashboard",
-      "contentUrl": "https://qboteduukunicontoso-dashboard.azurewebsites.net/home?upn={loginHint}&tid={tid}&gid={groupId}&uid={userObjectId}",
+      "contentUrl": "https://qbotimperial-dashboard.azurewebsites.net/home?upn={loginHint}&tid={tid}&gid={groupId}&uid={userObjectId}",
       "scopes": [ "personal" ]
     }
   ],
@@ -43,5 +43,5 @@
     "identity",
     "messageTeamMembers"
   ],
-  "validDomains": [ "qboteduukunicontoso-dashboard.azurewebsites.net", "qboteduukunicontoso.azurewebsites.net" ]
+  "validDomains": [ "qbotimperial-dashboard.azurewebsites.net", "qbotimperial.azurewebsites.net" ]
 }
